@@ -10,39 +10,39 @@
             android:scrollHorizontally="true"
             android:ellipsize="marquee"
             android:maxLines="1"
-            android:title="SERVICE JOB" />
+            android:title="PRIMARY" />
         <item
             android:id="@+id/nav_projectjobs"
             android:icon="@mipmap/nav2_icon"
             android:scrollHorizontally="true"
             android:ellipsize="marquee"
             android:maxLines="1"
-            android:title="PROJECT JOB" />
+            android:title="SENT" />
         <item
             android:id="@+id/nav_checklist"
             android:icon="@mipmap/nav2_icon"
-            android:title="SITE WALK CHECKLIST" />
+            android:title="SOCIAL" />
         <item
             android:id="@+id/nav_process_pw"
             android:icon="@mipmap/nav3_icon"
             android:scrollHorizontally="true"
             android:ellipsize="marquee"
             android:maxLines="1"
-            android:title="SITE IN PROCESS INSPECTION (PW)" />
+            android:title="FRAGMENT TAB" />
         <item
             android:id="@+id/nav_process_eps"
             android:icon="@mipmap/nav4_icon"
             android:scrollHorizontally="true"
             android:ellipsize="marquee"
             android:maxLines="1"
-            android:title="SITE IN PROCESS INSPECTION (EPS WORKS)" />
+            android:title="TEST A" />
         <item
             android:id="@+id/nav_toolbox"
             android:icon="@mipmap/nav5_icon"
             android:scrollHorizontally="true"
             android:ellipsize="marquee"
             android:maxLines="1"
-            android:title="TOOLBOX MEETING" />
+            android:title="TEST B" />
         <!--<item android:title="Sub items">
             <menu>
                 <item

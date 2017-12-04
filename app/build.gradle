@@ -24,6 +24,7 @@ android {
     sourceSets {
         main {
             res.srcDirs = [
+                    'src/main/res/layout/fragment_tab',
                     'src/main/res/layout/fragment_samples',
                     'src/main/res/layout/menu',
                     'src/main/res/layout',

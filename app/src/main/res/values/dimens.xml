@@ -11,4 +11,7 @@
 
     <!-- Icon size -->
     <dimen name="icon_size">64sp</dimen>
+
+    <!-- TAB FragmentSize -->
+    <dimen name="previous_newt_height">68sp</dimen>
 </resources>

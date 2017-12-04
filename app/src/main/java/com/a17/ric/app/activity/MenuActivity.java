@@ -180,7 +180,8 @@ public class MenuActivity extends FragmentActivity implements NavigationView.OnN
                 // logout();
                 break;
         }
-
+        // Use my shortcut to mark 'TODO' as 'COMPLETED'
+        //
         switch (menuItem.getItemId()) {
             case R.id.nav_servicejobs :
                 FragmentTransaction transaction1 = mFragmentManager.beginTransaction();

@@ -1,0 +1,27 @@
+=================================================
+APP: NAVIGATION DRAWER Template Module
+=================================================
+OBJECTIVE: For startup App with material designs
+DATE: DECEMBER 04, 2017
+
+=================================================
+APK DEV HISTORY:
+=================================================
+
+December 04
+*Initial commit to Github
+*Add - Navigation Drawer
+*Add - Assets from Techelm App
+*Add - ViewPager and Fragments for samplings
+*Add - Tabbed Fragment
+*Add - TASK.txt Tracking
+*TODO:
+    - Optimize ViewPager with heavy loads of View, this applied on the Calendar View Dependency
+    - Add Listing With Refresher
+    - LoadMore Features in Listing Item
+
+
+
+
+
+
