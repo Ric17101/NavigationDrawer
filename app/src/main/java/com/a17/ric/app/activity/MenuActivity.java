@@ -19,6 +19,7 @@ import com.a17.ric.app.fragment.PrimaryFragment;
 import com.a17.ric.app.fragment.SentFragment;
 import com.a17.ric.app.fragment.SocialFragment;
 import com.a17.ric.app.fragment.UnderMaintenanceFragment;
+import com.a17.ric.app.fragment.tab.FragmentTab;
 
 import static com.a17.ric.app.common.Constant.LANDING_PAGE_ACTIVE_KEY;
 import static com.a17.ric.app.common.Constant.NAVIGATION_DRAWER_SELECTED_PROJECTJOB;
@@ -71,7 +72,7 @@ public class MenuActivity extends FragmentActivity implements NavigationView.OnN
         Fragment activeFragment;
         switch (fromBundleToActiveNavigation()) {
             case NAVIGATION_DRAWER_SELECTED_SERVICEJOB :
-//                activeFragment = new ServiceJobFragmentTab();
+//                activeFragment = new FragmentTab();
 //                break;
             default:
             case NAVIGATION_DRAWER_SELECTED_PROJECTJOB :
@@ -194,8 +195,9 @@ public class MenuActivity extends FragmentActivity implements NavigationView.OnN
                 transaction3.replace(R.id.containerView, new SocialFragment()).commit();
                 break;
             case R.id.nav_process_pw :
-                FragmentTransaction transaction4 = mFragmentManager.beginTransaction();
-                transaction4.replace(R.id.containerView, new SentFragment()).commit();
+                FragmentTransaction transaction7 = mFragmentManager.beginTransaction();
+                transaction7.replace(R.id.containerView, new FragmentTab(), FragmentTab.TAG).commit();
+                mFragmentTransaction = transaction7;
                 break;
             case R.id.nav_process_eps :
                 FragmentTransaction transaction5 = mFragmentManager.beginTransaction();
