@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NavigationApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- SnackBarNotificationUtil / Dialog String -->
+    <string name="noInternetPrompt">Error! Check your Internet Connection.</string>
+    <string name="noInternetConnection">No internet connection.</string>
+</resources>

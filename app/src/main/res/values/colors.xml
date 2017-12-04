@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary1">#005A99</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#13507D</color>
+    <color name="colorWhiteByChris">#e8e8e8</color>
+
+    <color name="colorBlueThemed">#173E74</color>
+    <color name="colorBlueThemed1">#1B3D61</color>
+    <color name="colorBlueCalendarPicker">#1A3E62</color>
+    <color name="colorDarckBlueThemed">#1A3E62</color>
+    <color name="colorBlueButtonThemed">#005A99</color>
+    <color name="textColorWhite">#FFF</color>
+
+    <color name="black">#000</color>
+    <color name="orange">#FA0</color>
+    <color name="white">#FFF</color>
+
+    <color name="bluePrimaryDark">#048BFE</color>
+    <color name="bluePrimary">#2199FF</color>
+    <color name="bluePrimaryLight">#BADFFF</color>
+
+    <color name="blackPrimaryDark">#282828</color>
+    <color name="blackPrimary">#2E2E2E</color>
+    <color name="blackPrimaryLight">#8F8F8F</color>
+
+    <color name="fineGray">#E7E7E7</color>
+
+    <!-- Refresh Swipe -->
+    <color name="theme_accent_1">#00b0ff</color>
+    <color name="refresh_progress_1">@color/colorPrimary1</color>
+    <color name="refresh_progress_2">@color/theme_accent_1</color>
+    <color name="refresh_progress_3">@color/colorBlueThemed</color>
+
+
+    <color name="green01">#5EC639</color>
+    <color name="google_green">#3cba54</color>
+    <color name="google_yellow">#f4c20d</color>
+    <color name="google_red">#db3236</color>
+    <color name="google_blue">#4885ed</color>
+    <color name="google_white">#f2f2f2</color>
+
+</resources>
+

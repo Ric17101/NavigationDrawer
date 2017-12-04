@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeNoConnection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/textViewListResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonRetry"
+        android:layout_centerHorizontal="true"
+        android:text="Result"
+        android:textAlignment="center"
+        android:textSize="@dimen/subListTextSize"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/buttonRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14sp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:text="Retry"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/bluePrimaryDark"
+        android:textSize="@dimen/subListTextSize" />
+
+    <ImageView
+        android:id="@+id/imageNoConnection"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_above="@+id/textViewListResult"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_no_connection"
+        android:contentDescription="No internet" />
+
+</RelativeLayout>

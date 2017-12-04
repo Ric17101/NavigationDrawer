@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_servicejobs"
+            android:checked="true"
+            android:icon="@mipmap/nav1_icon"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:title="SERVICE JOB" />
+        <item
+            android:id="@+id/nav_projectjobs"
+            android:icon="@mipmap/nav2_icon"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:title="PROJECT JOB" />
+        <item
+            android:id="@+id/nav_checklist"
+            android:icon="@mipmap/nav2_icon"
+            android:title="SITE WALK CHECKLIST" />
+        <item
+            android:id="@+id/nav_process_pw"
+            android:icon="@mipmap/nav3_icon"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:title="SITE IN PROCESS INSPECTION (PW)" />
+        <item
+            android:id="@+id/nav_process_eps"
+            android:icon="@mipmap/nav4_icon"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:title="SITE IN PROCESS INSPECTION (EPS WORKS)" />
+        <item
+            android:id="@+id/nav_toolbox"
+            android:icon="@mipmap/nav5_icon"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:title="TOOLBOX MEETING" />
+        <!--<item android:title="Sub items">
+            <menu>
+                <item
+                    android:icon="@mipmap/nav4_icon"
+                    android:title="Sub item 1" />
+                <item
+                    android:icon="@mipmap/nav4_icon"
+                    android:title="Sub item 2" />
+            </menu>
+        </item>-->
+    </group>
+
+
+</menu>
