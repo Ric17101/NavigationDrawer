@@ -26,7 +26,7 @@ allprojects {
         androidMinSdkVersion = 17
         androidTargetSdkVersion = 26
         androidVersionCode = 1
-        androidVersionName = "4.0.0"
+        androidVersionName = "1.0.0"
         androidBuildToolsVersion = "26.0.2"
         androidSupportLibVersion = "27.0.1"
         androidApplicationId = "com.a17.ric.drawingapp"

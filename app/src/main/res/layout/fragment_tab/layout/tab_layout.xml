@@ -55,7 +55,7 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <!-- HEADER to hide/show -->
-            <include layout="@layout/i_project_task_b1_header" />
+            <include layout="@layout/i_sample_header" />
 
             <!--<include layout="@layout/i_project_task_b2b3_header" />-->
 
